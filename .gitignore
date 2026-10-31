@@ -1,0 +1,20 @@
+# Local-only, home-specific, and hub artifacts. Never pushed.
+notes/
+docs/
+scripts/
+_state.json
+
+# Runtime state
+.vault-touch-unseal/
+*.enc
+*.log
+
+# Secrets (hard rule, never commit)
+.env
+*.token
+*.key
+*.pem
+secrets/
+
+# macOS noise
+.DS_Store
