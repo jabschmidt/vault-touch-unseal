@@ -20,7 +20,7 @@ This suits one person running Vault on their own Mac. It is not built for shared
 
 ## Status
 
-The original version of these scripts runs daily on one iMac with macOS 26.6, Vault 2.2.1 and a YubiKey Security Key NFC. Real reboots there proved three outcomes: touched and unsealed, key removed, and no touch. In the last two, Vault stayed sealed until the manual unseal. The YubiKey refused the secret when asked to skip the touch.
+The original version of these scripts runs on one iMac with macOS 26.6, Vault 2.2.1 and a YubiKey Security Key NFC. Real reboots there proved three outcomes: touched and unsealed, key removed, and no touch. In the last two, Vault stayed sealed until the manual unseal. The YubiKey refused the secret when asked to skip the touch.
 
 This repo is a cleaned-up copy with machine-specific values turned into settings. It has passed a syntax check, but it has not been through a real setup and reboot. Test it before you rely on it, and keep your unseal key where you can reach it.
 
